@@ -1,0 +1,3 @@
+files=$(find base_dades -name '*\.txt')
+etext=$(ls $files | egrep 'etext*/*\.txt')
+echo $etext
