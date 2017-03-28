@@ -1,0 +1,1 @@
+ls: no s’ha pogut accedir a noexiste.txt: El fitxer o directori no existeix

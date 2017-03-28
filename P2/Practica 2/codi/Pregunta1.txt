@@ -1,0 +1,8 @@
+Nos da el siguiente error:
+
+main.o: In function `main':
+main.c:(.text+0x28): undefined reference to `euclideanDistance'
+main.c:(.text+0x50): undefined reference to `manhattanDistance'
+collect2: error: ld returned 1 exit status
+
+Debido a que en el codigo existe referencia a dichas funciones, las cuales no consigue encontrar y considera como no definidas.

@@ -1,0 +1,1 @@
+for i in $mydir; do echo "dir=$i";cd $i; myfiles=$(ls -a); for j in $myfiles; do echo "    $j"; done;cd ..;done

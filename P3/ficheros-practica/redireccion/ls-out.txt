@@ -1,0 +1,10 @@
+error.txt
+imprime-mensajes.c
+imprime-mensajes.exe
+imprime-mensajes.o
+lee-palabras
+lee-palabras.c
+ls-out.txt
+mensajes.txt
+P1.c
+P1.o

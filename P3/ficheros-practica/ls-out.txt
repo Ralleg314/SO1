@@ -1,0 +1,4 @@
+coreutils-8.25
+grep-experiments
+ls-out.txt
+redireccion
