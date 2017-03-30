@@ -4,3 +4,4 @@ chmod u+x $scripts
 mkdir shFiles
 cp $scripts shFiles
 touch --date="1996-03-02"  shFiles/s*
+ls -l shFiles/s*
