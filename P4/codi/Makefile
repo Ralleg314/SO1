@@ -21,19 +21,19 @@ segundos: segundos.o rw_pid.o
 	gcc segundos.o rw_pid.o -o segundos
 
 # Creating object files
-principal.o: principal.c  
+principal.o: principal.o  
 	gcc -c principal.c
 
-hora.o: horas.c
+hora.o: horas.o
 	gcc -c horas.c
 
-minutos.o: minutos.c
+minutos.o: minutos.o
 	gcc -c minutos.c
 
-segundos.o:  segundos.c
+segundos.o:  segundos.o
 	gcc -c segundos.c
 
-rw_pid.o: rw_pid.c
+rw_pid.o: rw_pid.o
 	gcc -c rw_pid.c
 
 # To start over from scratch, type 'make clean'.  This
