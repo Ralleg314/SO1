@@ -40,6 +40,6 @@ rw_pid.o: rw_pid.c
 # files and *~ backup files:
 #
 clean: 
-	$(RM) principal horas minutos segundos *.o *~
+	$(RM) principal horas minutos segundos *.o *~ *.pid
 
 
