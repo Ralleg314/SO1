@@ -4,7 +4,7 @@
 int main(void)
 {
   int ret;
-  char *argv[3] = {"/usr/bin/ls", "-l", NULL};
+  char *argv[3] = {"ls", "-l", NULL};
 
   ret = fork();
 
